@@ -1,0 +1,37 @@
+create Azure account
+install azure cli 
+Login from terminal - az login
+create web app  with - az webapp up --n codecov-report --runtime "NODE:20-lts"
+PS C:\Users\Mahes\codecov-report> az webapp up --n codecov-report --runtime "NODE:20-lts"
+The webapp 'codecov-report' doesn't exist
+Creating Resource group 'mahesh.chittiveri435_rg_3636' ...
+Resource group creation complete
+Creating AppServicePlan 'mahesh.chittiveri435_asp_8666' or Updating if already exists
+Readonly attribute name will be ignored in class <class 'azure.mgmt.web.v2023_01_01.models._models_py3.AppServicePlan'>
+Resource provider 'Microsoft.Web' used by this operation is not registered. We are registering for you.
+Registration succeeded.
+Creating webapp 'codecov-report' ...
+Configuring default logging for the app, if not already enabled
+Creating zip with contents of dir C:\Users\Mahes\codecov-report ...
+Getting scm site credentials for zip deployment
+Starting zip deployment. This operation can take a while to complete ...
+Deployment endpoint responded with status code 202
+You can launch the app at http://codecov-report.azurewebsites.net
+Setting 'az webapp up' default arguments for current directory. Manage defaults with 'az configure --scope local'     
+--resource-group/-g default: mahesh.chittiveri435_rg_3636
+--sku default: F1
+--plan/-p default: mahesh.chittiveri435_asp_8666
+--location/-l default: eastus
+--name/-n default: codecov-report
+{
+  "URL": "http://codecov-report.azurewebsites.net",
+  "appserviceplan": "mahesh.chittiveri435_asp_8666",
+  "location": "eastus",
+  "name": "codecov-report",
+  "os": "Linux",
+  "resourcegroup": "mahesh.chittiveri435_rg_3636",
+  "runtime_version": "NODE|20-lts",
+  "runtime_version_detected": "-",
+  "sku": "FREE",
+  "src_path": "C:\\Users\\Mahes\\codecov-report"
+}
