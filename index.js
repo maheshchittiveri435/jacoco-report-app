@@ -96,7 +96,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static('public')); // Serve static files (like HTML reports) from the 'public' directory
 
 app.get('/', (req, res) => {
-    res.send('<h1>Welcome to the report app!</h1><p>Visit these links:<br><a href="/reports/reportNewer/reportNewer.html">Report 1</a><br><a href="/reports/reportNew.html">Report 2</a></p>');
+    res.send('<h1>Heyy, Welcome to the report app!</h1><p>Visit these links:<br><a href="/reports/reportNewer/reportNewer.html">Report 1</a><br><a href="/reports/reportNew.html">Report 2</a></p>');
 
 });
 
